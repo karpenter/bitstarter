@@ -9,7 +9,7 @@ var index_to_str = index.toString();
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2!');
+  //response.send('Hello World 2!');
   response.send(index_to_str);
     
 });
